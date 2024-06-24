@@ -1,9 +1,9 @@
 import "./App.css";
 
-function App() {
-console.log(import.meta.env.REACT_APP_APPWRITE_URL);
-
-  return <></>;
+const App = () => {
+  const [loading, setLoading] = useState(true)
+  return (
+    <div>App</div>
+  )
 }
-
-export default App;
+export default App
